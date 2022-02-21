@@ -46,3 +46,6 @@ def kilometers_to_miles():
     mile = 1.61
     convert = km / mile
     print("That's", convert, "miles!")
+
+if __name__ == '__main__':
+    pass
