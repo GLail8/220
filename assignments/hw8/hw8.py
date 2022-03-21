@@ -37,7 +37,7 @@ def sum_of_square(nums):
     to_numb = to_numbers(nums)
     for number in range(len(to_numb)):
         nest_list = list(to_numb[number])
-        squares = squae_each(nest_list)
+        squares = square_each(nest_list)
         sum = sum_list(squares)
         sum_square_list.append(sum)
     return sum_square_list
@@ -95,7 +95,7 @@ def circle_overlap():
         overlap_false = Text(Point(5,3), 'The circles do not overlap.')
         overlap_false.draw(win)
 
-    close_text = Text(Point(5,2), 'Clock again to close.')
+    close_text = Text(Point(5,2), 'Click again to close.')
     close_text.draw(win)
 
     win.getMouse()
