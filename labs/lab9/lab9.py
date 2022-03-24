@@ -98,3 +98,5 @@ def play():
         print("{}'s win!".format(get_winner(board)))
         user_input = input("play again? (y or yes to continue)")
         board = build_board()
+
+play()
