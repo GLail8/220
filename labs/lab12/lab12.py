@@ -2,6 +2,7 @@
 Garrett Lail
 lab12.py
 I certify this lab is my own work
+
 """
 
 def find_and_remove_first(list, value):

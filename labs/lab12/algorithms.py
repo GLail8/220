@@ -2,6 +2,7 @@
 Garrett Lail
 algorithms.py
 I certify this lab is my own
+
 """
 
 def read_data(filename):
