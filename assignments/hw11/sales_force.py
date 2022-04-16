@@ -12,7 +12,6 @@ class SalesForce:
         file = open(file_name, 'r')
         for line in file.readlines():
             self.sales_people.append(line.split(','))
-        print(self.sales_people)
 
     def quota_report(self, quota):
         for person in self.sales_people:
